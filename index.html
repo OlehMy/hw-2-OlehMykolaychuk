@@ -3,13 +3,110 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="vievport" content="width-device-width, user-scalable=no, intital-scale=1.0, maximum-scale=1.0, minimum-scale=1,0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>hw-2</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" />
 </head>
 
 <body>
 
+    <table>
+        <caption>Таблиця "Таблиця"</caption>
+        <thead>
+            <tr>
+                <th>Ім'я</th>
+                <th>Прізвище</th>
+                <th>Телефон</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Якесь ім'я</td>
+                <td>Прізвище 1</td>
+                <td>+38-0XX-XXXXXX1</td>
+                <td>email@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Також ім'я</td>
+                <td>Прізвище 2</td>
+                <td>+38-0XX-XXXXX2X</td>
+                <td>email@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Іще ім'я</td>
+                <td>Прізвище 3</td>
+                <td>+38-0XX-XXXX3XX</td>
+                <td>email@mail.com</td>
+            </tr>
+            <tr>
+                <td>Ім'я на ім'я ім'я</td>
+                <td>Прізвище 4</td>
+                <td>+38-0XX-XXX4XXX</td>
+                <td>email@ukr.net</td>
+            </tr>
+            <tr>
+                <td>Як ім'я тільки не ім'я</td>
+                <td>Прізвище 5</td>
+                <td>+38-0XX-XX5XXXX</td>
+                <td><span class="wrong1">email@mail.ru </span><span class="wrong2">ERROR!!!</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form action="" class="form">
+
+        <div class="name_input">
+            <div class="name">
+                <label for="name"> <b>Ім'я</b> </label><br>
+                <input class="input_font" type="text" placeholder="Введіть Ваше ім'я" id="name" size="25px">
+            </div>
+            <div class="last_name">
+                <label for="last_name"> <b>Прізвище</b> </label><br>
+                <input class="input_font" type="text" placeholder="Введіть Ваше прізвище" id="last_name" size="25px">
+            </div>
+        </div>
+
+        <div class="male_female">
+            <b>Ваша стать</b><br>
+            <input type="radio" name="sex" id="male" checked>
+            <label for="male"> Чоловіча </label><br>
+            <input type="radio" name="sex" id="female">
+            <label for="female"> Жіноча </label><br>
+        </div>
+
+        <div class="question">
+            <label class="label_for_question" for="question"><b>Запитання</b></label><br>
+            <textarea class="textarea" type="text" cols="70" rows="7" placeholder="Напишіть своє запитання" id="question"></textarea>
+        </div>
+
+        <div class="city_choice">
+            <select size="1">
+            <option selected disabled><b>Виберіть місто</b></option>
+            <option value="Львів">Київ</option>
+            <option value="Київ">Львів</option>
+            <option value="Дніпро">Рівне</option>
+            </select>
+        </div>
+
+        <div class="language_selection">
+            <b>Виберіть мову</b><br>
+            <input type="checkbox" name="ua" id="ua">
+            <label for="ua"> Українська </label><br>
+            <input type="checkbox" name="ru" id="ru">
+            <label for="ru"> Русский </label><br>
+            <input type="checkbox" name="en" id="en">
+            <label for="en"> English </label><br>
+        </div>
+
+        <button class="send"><b>Надіслати</b></button>
+
+    </form>
+
 </body>
+
+<script src="test-hw.js"></script>
 
 </html>
