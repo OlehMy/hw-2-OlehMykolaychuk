@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&family=Russo+One&family=Montserrat&display=swap');
+html {
+    height: auto;
+}
+
 body {
-    margin: auto;
     background-image: linear-gradient(to bottom, white, rgba(214, 179, 65, 0.685));
-    height: 100%;
+    background-size: cover;
+    height: auto;
+    margin: 0;
 }
 
 .form {
@@ -14,7 +19,7 @@ body {
     background-color: rgba(214, 179, 65, 0.685);
     width: 600px;
     margin: auto;
-    margin-bottom: 2%;
+    margin-bottom: 50px;
     color: gray;
 }
 
