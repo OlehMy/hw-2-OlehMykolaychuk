@@ -23,7 +23,7 @@ body {
 caption {
     font-family: 'Russo One', sans-serif;
     font-size: 33px;
-    background-image: linear-gradient(to top, rgb(208, 119, 68), rgb(74, 110, 132));
+    background-color: rgb(208, 119, 68);
     color: white;
     margin-top: 40px;
     margin-bottom: 40px;
