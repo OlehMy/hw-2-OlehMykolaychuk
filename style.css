@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&family=Russo+One&family=Montserrat&display=swap');
 body {
-    background-image: linear-gradient(to bottom, white, rgba(214, 179, 65, 0.685));
+    background-image: linear-gradient(185deg, rgb(74, 110, 132) 30%, rgb(208, 119, 68));
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,27 +12,24 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-align: center;
-    border: 2px rgba(214, 179, 65, 0.685) solid;
     border-radius: 10px;
-    background-color: rgba(214, 179, 65, 0.685);
+    background-color: rgb(208, 119, 68);
     width: 600px;
     margin: auto;
     margin-bottom: 50px;
-    color: gray;
+    color: rgb(74, 110, 132);
 }
 
 caption {
     font-family: 'Russo One', sans-serif;
     font-size: 33px;
-    text-shadow: orange 0 0 2px;
-    background-image: linear-gradient(to bottom, rgba(214, 179, 65, 0.685), white);
+    background-image: linear-gradient(to top, rgb(208, 119, 68), rgb(74, 110, 132));
     color: white;
     margin-top: 40px;
     margin-bottom: 40px;
     margin-right: 7px;
     margin-left: 7px;
     padding: 10px;
-    border: 2px rgba(214, 179, 65, 0.685) solid;
     border-radius: 10px;
 }
 
@@ -41,7 +38,7 @@ table {
     font-size: 20px;
     margin: auto;
     margin-bottom: 50px;
-    color: gray;
+    color: rgb(74, 110, 132);
     border-spacing: 7px;
     table-layout: auto;
 }
@@ -51,9 +48,8 @@ th {
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border: 2px rgba(214, 179, 65, 0.685) solid;
     border-radius: 10px;
-    background-color: rgba(214, 179, 65, 0.685);
+    background-color: rgb(208, 119, 68);
     color: white;
 }
 
@@ -62,7 +58,6 @@ td {
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border: 2px rgba(214, 179, 65, 0.685) solid;
     border-radius: 10px;
     background-color: white;
 }
@@ -105,6 +100,7 @@ td {
 
 .city_choice {
     margin: 20px;
+    color: rgb(74, 110, 132);
 }
 
 .language_selection {
@@ -120,9 +116,9 @@ td {
     cursor: pointer;
     user-select: none;
     outline: 0;
-    color: rgba(214, 179, 65, 0.685);
+    color: rgb(74, 110, 132);
     background: white;
-    box-shadow: inset 0 -2px 0 0 rgba(214, 179, 65, 0.685);
+    box-shadow: inset 0 -2px 0 0 rgb(74, 110, 132);
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -130,9 +126,9 @@ td {
 }
 
 .send:active {
-    background: rgba(214, 179, 65, 0.685);
+    background: rgb(74, 110, 132);
     color: white;
-    box-shadow: inset 0 -5px 0 0 white;
+    box-shadow: inset 0 -3px 0 0 white;
 }
 
 .wrong1 {
